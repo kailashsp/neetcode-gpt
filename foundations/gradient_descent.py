@@ -7,8 +7,7 @@ class Solution:
         # Round final answer to 5 decimal places
         # pass
         x = init
-        fn = x**2
-        for i in range(iterations):
+        for _ in range(iterations):
             dx = 2 *x
             x = x - learning_rate * dx
 
